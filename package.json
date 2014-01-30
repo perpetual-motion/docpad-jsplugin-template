@@ -1,0 +1,31 @@
+{
+  "name": "docpad-plugin-PLUGINNAME",
+  "version": "2.0.0",
+  "description": "DocPad plugin PLUGINNAME",
+  "homepage": "http://perpetual-motion.com/docpad/PLUGINNAME",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+  ],
+  "author": "Garrett Serack <garrett@serack.org> (http://fearthecowboy.com)",
+  "maintainers": [
+    "Garrett Serack <garrett@serack.org> (http://fearthecowboy.com)"
+  ],
+  "contributors": [
+    "Garrett Serack <garrett@serack.org> (http://fearthecowboy.com)"
+  ],
+  "bugs": {
+    "url": "https://github.com/perpetual-motion/docpad-plugin-PLUGINNAME/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perpetual-motion/docpad-plugin-PLUGINNAME.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "./lib/PLUGINNAME.plugin.js",
+  "dependencies": {
+    "docpad-jsplugin": "git://github.com/perpetual-motion/docpad-jsplugin.git"
+  }
+}
